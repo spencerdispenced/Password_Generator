@@ -8,7 +8,10 @@ Default is 12 characters of lowercase letters.
   
   
 -U, --upper      adds uppercase letters
+
 -N, --number     adds numbers
+
 -S, --special    adds special characters
+
 -A, --all        adds all character sets (Recommended)
  
