@@ -13,8 +13,6 @@ specials += [i for i in range(123, 127)]
 
 
 
-
-
 def get_arguments(argv=None):
     parser = argparse.ArgumentParser(description="Create a password of <x> length")
     parser.add_argument("length", nargs='?', default=12, type=int, help="set length of password")
@@ -23,7 +21,6 @@ def get_arguments(argv=None):
     parser.add_argument("-S", "--special", help="Include special characters", action="store_true")
     parser.add_argument("-A", "--all", help="Include all characters types", action="store_true")
     return parser.parse_args(argv)
-
 
 
 
